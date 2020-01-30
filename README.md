@@ -52,4 +52,6 @@ The information is stored in MongoDB in a JSON format. The password is hashed an
 
 ### Security Risks
 
+PUT DESCRIPTION OF EACH LEVEL & PROBLEM
+
 If the password is not stored properly, then a hacker could use the secret key and get the password easily. 
