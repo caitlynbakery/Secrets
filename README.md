@@ -34,4 +34,9 @@ Open browser and go to `localhost:3000`
 
 ## What I Learned
 
+### Google Oauth2
 
+In this module, I learned  how to set up Google authentication using Oauth2. I used the [Google developer console](https://console.developers.google.com/).
+
+![](doc/images/google1.png)
+![](doc/images/google2.PNG) 
