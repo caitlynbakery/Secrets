@@ -9,7 +9,7 @@ Practice using node and express
 
 ## Usage
 
-Must have mongodb running for website to work.
+Must have mongodb running for website to work. This command below is for [WSL](https://docs.microsoft.com/en-us/windows/wsl/about), it might look different for Mac.
 
     sudo service mongodb start
     [sudo] password for caitlyn: 
@@ -40,3 +40,16 @@ In this module, I learned  how to set up Google authentication using Oauth2. I u
 
 ![](doc/images/google1.png)
 ![](doc/images/google2.PNG) 
+
+### MongoDB
+
+The information is stored in MongoDB in a JSON format. The password is hashed and salted so that the real password is not stored. The actual fields are 
+
+    email: String,
+    password: String,
+    googleId: String,
+    secret: String. 
+
+### Security Risks
+
+If the password is not stored properly, then a hacker could use the secret key and get the password easily. 
