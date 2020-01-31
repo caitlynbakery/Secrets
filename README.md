@@ -52,6 +52,16 @@ The information is stored in MongoDB in a JSON format. The password is hashed an
 
 ### Security Risks
 
-PUT DESCRIPTION OF EACH LEVEL & PROBLEM
+Level 1 - When registering users' password in plain text, anyone is able to view the password.
+
+Level 2 - Encrypting a code with a secret key is easy to hack.
+
+Level 3 - MD5 is a hash but hashing is easy to break.
+
+Level 4 - Using bcrypt, salting is possible and it adds integers/symbols to the end of the hash.
+
+Level 5 - A cookie is used to track users' information. A session is like a login session. The problems of local storage is that it seems unreliable and people like to use Google authentication because it is more secure to them.
+
+Level 6 - Using Oauth2 with Google is the most secure method compared to the other methods previously mentioned. 
 
 If the password is not stored properly, then a hacker could use the secret key and get the password easily. 
