@@ -60,7 +60,7 @@ Level 3 - MD5 is a hash but a simple hash is easy to break using a hash table or
 
 Level 4 - Using bcrypt, salting is possible and it adds integers/symbols to the end of the hash.
 
-Level 5 - A cookie is used to track users' information. A session is like a login session. The problems of local storage is that it seems unreliable and people like to use Google authentication because it is more secure to them.
+Level 5 - A cookie is used to track users' information. A session is like a login session. The problem of local storage is that it seems unreliable and people like to use Google authentication because it is more secure to them.
 
 Level 6 - Using Oauth2 with Google is the most secure method compared to the other methods previously mentioned. 
 
