@@ -54,9 +54,9 @@ The information is stored in MongoDB in a JSON format. The password is hashed an
 
 Level 1 - When registering users' password in plain text, anyone is able to view the password.
 
-Level 2 - Encrypting a code with a secret key is easy to hack.
+Level 2 - Encrypting a code with a secret key is easy to hack if they get the secret key.
 
-Level 3 - MD5 is a hash but hashing is easy to break.
+Level 3 - MD5 is a hash but a simple hash is easy to break using a hash table or Google search.
 
 Level 4 - Using bcrypt, salting is possible and it adds integers/symbols to the end of the hash.
 
