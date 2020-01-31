@@ -52,7 +52,7 @@ The information is stored in MongoDB in a JSON format. The password is hashed an
 
 ### Security Risks
 
-Level 1 - When registering users' password in plain text, anyone is able to view the password.
+Level 1 - When registering users' passwords in plain text, anyone is able to view the passwords.
 
 Level 2 - Encrypting a code with a secret key is easy to hack if they get the secret key.
 
